@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class oddeven {
+	public static String oddeven(int n){
+		return (n%2==0)?n+" is a even":" is a odd";
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int n = sc.nextInt();
+		String str = oddeven(n);
+		System.out.println(oddeven(n));
+	}
+
+}
