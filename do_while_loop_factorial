@@ -1,0 +1,26 @@
+
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String args[]) {
+	      
+	        char ch;
+	     do{
+	            int fact =1;
+	            Scanner sc = new Scanner(System.in);
+	            int n = sc.nextInt();
+	            for(int i=1;i<=n;i++){
+	            fact *= i;
+	            }
+	            System.out.println(fact);
+	            System.out.println("Y/N: ");
+	            ch = sc.next().charAt(0);
+	       }while(ch=='Y'||ch=='y'); 
+	     
+    }    
+   
+}
+
+
+
