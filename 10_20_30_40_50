@@ -1,0 +1,18 @@
+
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    private static String checkgivennumber(int n){
+       return (n==10||n==20||n==30||n==40||n==50)?"Number is valid":"Number is invalid"; 
+    }
+    public static void main(String args[]) {
+	   Scanner sc = new Scanner(System.in);
+	   int n = sc.nextInt();
+	   System.out.println(checkgivennumber(n));
+    }    
+   
+}
+
+
+
