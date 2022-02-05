@@ -1,0 +1,18 @@
+
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    private static String checkgivennumber(char ch){
+       return (ch=='a'||ch=='A'||ch=='e'||ch=='E'||ch=='i'||ch=='o'||ch=='O'||ch=='u'||ch=='U')?"It is a vowel":"It is a consonant"; 
+    }
+    public static void main(String args[]) {
+	   Scanner sc = new Scanner(System.in);
+	   char ch = sc.next().charAt(0);
+	   System.out.println(checkgivennumber(ch));
+    }    
+   
+}
+
+
+
