@@ -7,7 +7,7 @@ public class Main {
 	   Scanner sc = new Scanner(System.in);
 	   int n = sc.nextInt();
 	   String str ="";
-	   str=n>10?"is Greater than 10 \n is Greater than 5":n>5?"is Lesser than 10 \n is greater than 5":"is Lesser than 10 \n is Greater than 5";
+	   str=(n>10&&n>5)?"is Greater than 10 \n is Greater than 5":(n<10&&n<5)?"is Lesser than 10 \n is Lesser than 5":"is Lesser than 10 \n is Greater than 5";
 	   System.out.println(str);
     }    
    
