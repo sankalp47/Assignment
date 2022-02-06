@@ -1,0 +1,15 @@
+public class Main {
+    
+    public static void main(String args[]) {
+        int n =123;
+        int first = n/100;
+         n = n%100;
+        
+        int second = n/10;
+        int third = n%10;
+        
+        int reverse = third*100 + second*10 + first;
+        System.out.println("reverse number: "+reverse);
+    }    
+   
+}
